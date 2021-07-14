@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-image: url("images/doctor.png");
+    background-size: 100% 100%;
+    font-size: x-large;
+    text-shadow: 5px 5px 5px #616060;
+    background-color: #4e4e4e;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    background-color: antiquewhite;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+input,select {
+    border-radius: 20px;
+}
+
+.button {
+    border-radius: 20px;
+    border: 2px solid #373092;
+    background-color: #fffefe;
+}
+
+/* 导航条 */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* 导航链接 */
+.topnav a {
+    float: left;
+    /*display: block;*/
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* 链接 - 修改颜色 */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+div.center {
+    padding: 20px;
+    border-radius: 20px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid gray;
+}
+
+div.center-record {
+    padding: 20px;
+    border-radius: 20px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid gray;
+}
+
+div.query {
+    padding: 20px;
+    border-radius: 20px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid gray;
+}
+
+table.input {
+    text-align: left;
+}
+
+table.query th {
+    background-color: #98bf21;
+    color: white;
+}
+
+table.input2{
+    background-color: #98bf21;
+    height: 40px;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: large;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+table.query {
+    height: 40px;
+    font-size: large;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+p.message {
+    text-align: center;
+    color: red;
+}

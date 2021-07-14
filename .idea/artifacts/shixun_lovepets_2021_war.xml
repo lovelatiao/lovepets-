@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="shixun-lovepets-2021:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/shixun_lovepets_2021_war</output-path>
+    <root id="archive" name="shixun-lovepets-2021_war.war">
+      <element id="artifact" artifact-name="shixun-lovepets-2021:war exploded" />
+    </root>
+  </artifact>
+</component>
